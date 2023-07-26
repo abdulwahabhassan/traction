@@ -1,4 +1,4 @@
-package com.hassan.traction.ui.theme
+package com.traction.ui.theme
 
 import android.app.Activity
 import android.os.Build
