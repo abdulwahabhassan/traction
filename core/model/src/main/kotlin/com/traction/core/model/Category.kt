@@ -1,4 +1,4 @@
-package com.devhassan.model
+package com.traction.core.model
 
 enum class Category {
     TOP_RATED,

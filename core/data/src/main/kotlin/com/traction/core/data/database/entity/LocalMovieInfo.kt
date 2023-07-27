@@ -5,7 +5,6 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 import androidx.room.TypeConverters
 import com.traction.core.data.database.converter.Converter
-import com.devhassan.model.*
 import kotlinx.serialization.Serializable
 
 @Entity(tableName = "movie_info")

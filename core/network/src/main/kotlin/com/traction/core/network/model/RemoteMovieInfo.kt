@@ -11,9 +11,6 @@ data class RemoteMovieInfo(
     @SerialName("backdrop_path")
     val backdropPath: String,
 
-    @SerialName("belongs_to_collection")
-    val belongsToCollection: Boolean?,
-
     val budget: Long,
     val genres: List<RemoteGenre>,
     val homepage: String,

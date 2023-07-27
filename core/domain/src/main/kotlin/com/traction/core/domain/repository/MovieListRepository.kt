@@ -12,6 +12,6 @@ interface MovieListRepository {
 
     suspend fun insertMovie(
         movie: Movie
-    ): Unit
+    )
 
 }

@@ -6,7 +6,7 @@ import androidx.datastore.core.Serializer
 import androidx.datastore.core.handlers.ReplaceFileCorruptionHandler
 import androidx.datastore.dataStore
 import com.traction.core.common.di.IODispatcher
-import com.devhassan.model.Category
+import com.traction.core.model.Category
 import dagger.hilt.android.qualifiers.ApplicationContext
 import java.io.InputStream
 import java.io.OutputStream

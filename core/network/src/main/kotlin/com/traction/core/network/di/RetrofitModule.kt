@@ -1,7 +1,8 @@
 package com.traction.core.network.di
 
-import com.devhassan.data.api.MoviesApiService
+import com.traction.core.network.api.MoviesApiService
 import com.jakewharton.retrofit2.converter.kotlinx.serialization.asConverterFactory
+import com.traction.core.network.BuildConfig
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -22,7 +23,7 @@ object RetrofitModule {
         json: Json
     ): MoviesApiService {
         return Retrofit.Builder()
-            .baseUrl("")
+            .baseUrl(BuildConfig.BASE_URL)
             .client(client)
             .addConverterFactory(
                 json.asConverterFactory("application/json".toMediaType()),

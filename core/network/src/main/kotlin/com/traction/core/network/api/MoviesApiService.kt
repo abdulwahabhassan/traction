@@ -1,4 +1,4 @@
-package com.devhassan.data.api
+package com.traction.core.network.api
 
 import com.traction.core.network.model.RemoteMovieInfo
 import com.traction.core.network.model.RemoteMoviesResponse

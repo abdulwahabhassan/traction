@@ -1,7 +1,7 @@
 package com.traction.core.model
 
 data class MovieList(
-    val domainDates: Dates,
+    val dates: Dates,
     val page: Long,
     val results: List<Movie>,
     val totalPages: Long,

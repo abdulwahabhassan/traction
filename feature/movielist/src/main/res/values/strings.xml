@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_retry">Retry</string>
+    <string name="msg_popularity">Popularity</string>
+    <string name="patter_mmm_dd_yyyy">MMM dd, yyyy</string>
+    <string name="title_see_what_s_trending">See what\'s trending..</string>
+</resources>

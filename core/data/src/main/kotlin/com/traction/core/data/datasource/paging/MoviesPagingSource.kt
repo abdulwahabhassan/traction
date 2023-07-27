@@ -4,7 +4,7 @@ package com.traction.core.data.datasource.paging
 import androidx.paging.PagingSource
 import androidx.paging.PagingState
 import com.traction.core.network.Constants
-import com.devhassan.data.api.MoviesApiService
+import com.traction.core.network.api.MoviesApiService
 import com.traction.core.network.model.RemoteMovie
 
 class MoviesPagingSource(
